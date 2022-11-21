@@ -1,0 +1,27 @@
+.profiles-container {
+
+  //filter: drop-shadow(7px 0px 8px var(--rich-black-fogra-39));
+  border-radius: 5px;
+  min-height: 100vh;
+  border: var(--paradise-pink) 1px solid;
+  margin: 2rem;
+
+  .profiles {
+
+    margin: 2rem;
+    min-height: 90vh;
+    border: var(--paradise-pink) 1px solid;
+    border-radius: 5px;
+
+    .title {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      font-weight: bold;
+      font-size: 2.5rem;
+      color:var(--russian-violet)
+    }
+
+  }
+
+
+}

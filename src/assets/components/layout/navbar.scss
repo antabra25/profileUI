@@ -1,0 +1,29 @@
+.navbar-container {
+
+  .navbar {
+    position: relative;
+    background: var(--russian-violet);
+    height: 60px;
+    width: 100%;
+    .navbar-content{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      height: 100%;
+      align-items: center;
+      align-content: center;
+      .logo {
+        color:var(--paradise-pink)
+      }
+
+      a{
+        color:var(--paradise-pink);
+        text-decoration:none;
+      }
+    }
+
+
+  }
+}
